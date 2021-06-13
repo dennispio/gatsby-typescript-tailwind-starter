@@ -1,0 +1,55 @@
+{
+  "name": "gatsby-typescript-tailwind-scss-starter",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Dennis Piotrowski",
+  "dependencies": {
+    "gatsby": "^3.6.2",
+    "gatsby-image": "^3.6.0",
+    "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-eslint": "^3.0.0",
+    "gatsby-plugin-gatsby-cloud": "^2.6.1",
+    "gatsby-plugin-image": "^1.6.0",
+    "gatsby-plugin-manifest": "^3.6.0",
+    "gatsby-plugin-offline": "^4.6.0",
+    "gatsby-plugin-postcss": "^4.6.0",
+    "gatsby-plugin-purgecss": "^6.0.2",
+    "gatsby-plugin-react-helmet": "^4.6.0",
+    "gatsby-plugin-sass": "^4.6.0",
+    "gatsby-plugin-sharp": "^3.6.0",
+    "gatsby-source-filesystem": "^3.6.0",
+    "gatsby-transformer-remark": "^4.3.0",
+    "gatsby-transformer-sharp": "^3.6.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "sass": "^1.34.1"
+  },
+  "devDependencies": {
+    "@types/react-helmet": "^6.1.1",
+    "autoprefixer": "^10.2.6",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-react-app": "^6.0.0",
+    "prettier": "2.2.1",
+    "tailwindcss": "^2.1.4",
+    "typescript": "^4.3.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dennispio/gatsby-typescript-tailwind-starter"
+  }
+}

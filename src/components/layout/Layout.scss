@@ -1,0 +1,53 @@
+* {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.container-normal {
+  margin: 0 auto;
+
+  @media (min-width: 1600px) {
+    width: 1400px;
+  }
+
+  @media (min-width: 1280px) and (max-width: 1599px) {
+    width: 1170px;
+  }
+
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    width: 900px;
+  }
+
+  @media (min-width: 0px) and (max-width: 640px) {
+    width: 100%;
+
+    padding: {
+      left: 16px;
+      right: 16px;
+    }
+  }
+}
+
+@mixin xl {
+  @media (min-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media (max-width: 640px) {
+    @content;
+  }
+}
