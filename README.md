@@ -14,13 +14,13 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Download the Gatsby Starter.**
 
     Use the Gatsby CLI to create a new site, specifying the default starter.
 
     ```shell
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+    # Using the default starter
+    git clone git@github.com:dennispio/gatsby-typescript-tailwind-starter.git
     ```
 
 1.  **Start developing.**
